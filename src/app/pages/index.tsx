@@ -1,14 +1,5 @@
-import Image from "next/image";
-import Header from "./Header";
-import Footer from "./Footer";
-import BodySection from "./BodySection";
+import Page from '../page';
 
-export default function HomePage() {
-  return (
-    <main>
-      <Header />
-      <BodySection />
-      <Footer />
-    </main>
-  );
+export default function Index() {
+    return <Page />;
 }
