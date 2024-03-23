@@ -1,8 +1,13 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  basePath: "/ReactTypeScriptFrontendTemplate",
-  output: "export",
-  reactStrictMode: true,
-};
-
-module.exports = nextConfig;
+  output: 'export',
+  // Optional configurations
+  // trailingSlash: true,
+  // skipTrailingSlashRedirect: true,
+  // distDir: 'dist',
+ }
+ 
+ module.exports = nextConfig;
+ 
