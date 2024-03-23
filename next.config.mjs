@@ -1,16 +1,9 @@
 // next.config.js
 const nextConfig = {
-  output: 'export'
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
 };
 
-module.exports = nextConfig;
-
-// // next.config.js
-// const nextConfig = {
-//   output: 'export',
-//   images: {
-//     unoptimized: true,
-//   },
-// };
-
-// export default nextConfig;
+export default nextConfig;
