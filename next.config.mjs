@@ -3,10 +3,6 @@
  */
 const nextConfig = {
   output: 'export',
-  // Optional configurations
-  // trailingSlash: true,
-  // skipTrailingSlashRedirect: true,
-  // distDir: 'dist',
  }
  
  module.exports = nextConfig;
