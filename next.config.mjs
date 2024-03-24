@@ -1,6 +1,6 @@
 // next.config.js
 const nextConfig = {
-  output: 'export',
+  output: 'standalone',
   images: {
     unoptimized: true,
   },
