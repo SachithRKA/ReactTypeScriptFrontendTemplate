@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        'sm': {'min': '0px', 'max': '680px'},
+        'lg': {'min': '0px', 'max': '1289px'},
+        'xl': {'min': '1290px'},
+        // => @media (min-width: 1280px and max-width: 1535px) { ... }
+      },
+      spacing: {
+        '25p' : '25%',
+        '20p' : '20%',
+      },
+      colors: {
+        'custom-green': "#14532d",
+        'custom-green-dark': "#064e3b",
+      },
     },
   },
   plugins: [],
