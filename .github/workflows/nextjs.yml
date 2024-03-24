@@ -17,16 +17,17 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: emscripten/emsdk
     steps:
       - uses: actions/checkout@v3
-      - run: cmake -B build -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} -DEMSCRIPTEN=ON
-      - run: cmake --build build --config ${{env.BUILD_TYPE}}
-      - uses: actions/upload-artifact@master
+      - uses: actions/setup-node@v2
         with:
-          name: page
-          path: build
+          node-version: '14'
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: .next
           if-no-files-found: error
 
   deploy:
