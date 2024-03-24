@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    output: 'export',
-};
-
-export default nextConfig;
+export default {
+    // other configurations...
+  
+    // Add this function
+    exportPathMap: async function (
+      defaultPathMap,
+      { dev, dir, outDir, distDir, buildId }
+    ) {
+      return defaultPathMap;
+    },
+  };
