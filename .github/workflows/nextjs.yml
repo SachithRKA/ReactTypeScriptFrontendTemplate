@@ -1,11 +1,11 @@
 name: ReactTypeScriptFrontendTemplate
 
 on:
-  push:
+ push:
     branches: [main]
 
 jobs:
-  build:
+ build:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }} # Use a custom deploy token with sufficient permissions
+          token: ${{ secrets.DEPLOY_TOKEN }} # Use the correct input for authentication
           BRANCH: public
           FOLDER: out
