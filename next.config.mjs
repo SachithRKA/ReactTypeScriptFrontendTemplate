@@ -1,11 +1,4 @@
 export default {
+    target: 'serverless',
     // other configurations...
-  
-    // Add this function
-    exportPathMap: async function (
-      defaultPathMap,
-      { dev, dir, outDir, distDir, buildId }
-    ) {
-      return defaultPathMap;
-    },
-  };
+};
