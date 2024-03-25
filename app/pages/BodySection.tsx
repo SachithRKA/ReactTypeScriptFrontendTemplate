@@ -3,7 +3,7 @@ import React from "react";
 
 export default function BodySection() {
     return (
-        <div className="bg-black rounded-lg shadow dark:bg-gray-900 mt-4 text-center items-center h-[100%]">
+        <div className="rounded-lg shadow dark:bg-gray-900 mt-4 text-center items-center h-[100%]">
             
             <div className="first-section">
                 <h1 className="text-white-500 text-6xl pt-40 pl-20 pr-20">Lorem Ipsum Where does it come from</h1>
