@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Header() {
     return (
-        <div className="min-h-screen"> 
+        <div className="dark:bg-gray-900 min-h-screen"> 
 
             <CustomHeader />
 

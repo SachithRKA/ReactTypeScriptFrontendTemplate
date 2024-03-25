@@ -3,7 +3,7 @@ import React from "react";
 
 export default function BodySection() {
     return (
-        <div className="bg-white rounded-lg shadow dark:bg-gray-900 mt-4 text-center items-center h-[100%]">
+        <div className="rounded-lg shadow dark:bg-gray-900 mt-4 text-center items-center h-[100%]">
             
             <div className="first-section">
                 <h1 className="text-white-500 text-6xl pt-40 pl-20 pr-20">Lorem Ipsum Where does it come from</h1>
@@ -17,9 +17,9 @@ export default function BodySection() {
             <div className="second-section mt-20 pb-20">
                 <h1 className="text-gray-400 text-l mb-7">Use by the best researchers</h1>
                 <div className="flex items-center justify-center mt-3"> 
-                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/google.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32 " />
-                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/website-logo.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32" />        
-                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/mit.svg" alt="Hero" width={50} height={50} className=" rounded-lg" />                
+                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/chrome.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32 " />
+                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/js.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32" />        
+                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/tailwind.svg" alt="Hero" width={50} height={50} className=" rounded-lg" />                
                 </div>
             </div>
 
