@@ -7,7 +7,7 @@ export default function Index() {
     
     return <>
         <Header />
-        <Link href="/Testing"><a>Testing</a></Link>
+        <Link href="/"><a>Testing</a></Link>
         <h1>HELLO WORLD LINKS WORLS HOPE SO</h1>
     </>;
 }
