@@ -34,7 +34,7 @@ export default function Signup() {
             </div>
 
             <div className="mb-4">
-                <Link legacyBehavior href="/Signup">
+                <Link legacyBehavior href="/">
                     <button
                         className="w-full px-4 py-2 text-1.5xl font-medium border text-gray-400 border-gray-400 rounded-sm hover:bg-white hover:text-black"
                         type="submit">
