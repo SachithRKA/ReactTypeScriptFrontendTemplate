@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 
 export default function BodySection() {
     return (
@@ -16,9 +17,9 @@ export default function BodySection() {
             <div className="second-section mt-20 pb-20">
                 <h1 className="text-gray-400 text-l mb-7">Use by the best researchers</h1>
                 <div className="flex items-center justify-center mt-3"> 
-                    <Image src="/SVG/google.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32 " />
-                    <Image src="/SVG/website-logo.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32" />        
-                    <Image src="/SVG/windows.svg" alt="Hero" width={50} height={50} className=" rounded-lg" />                
+                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/google.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32 " />
+                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/website-logo.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32" />        
+                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/windows.svg" alt="Hero" width={50} height={50} className=" rounded-lg" />                
                 </div>
             </div>
 
@@ -27,19 +28,19 @@ export default function BodySection() {
                 <div className="md:grid md:grid-cols-2 md:gap-3 mb-4">
                     {/* First Section of Images */}
                     <div style={{ position: 'relative', width: '100%', height:'100' }}>
-                        <Image src="/Images/Image_One.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />
+                        <Image src="/ReactTypeScriptFrontendTemplate/Images/Image_One.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />
                     </div>
 
                     <div style={{ position: 'relative', width: '100%', height:'100' }}>
-                        <Image src="/Images/Image_Two.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />   
+                        <Image src="/ReactTypeScriptFrontendTemplate/Images/Image_Two.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />   
                     </div>
 
                     <div style={{ position: 'relative', width: '100%', height:'100' }}>
-                        <Image src="/Images/Image_Three.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />
+                        <Image src="/ReactTypeScriptFrontendTemplate/Images/Image_Three.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />
                     </div>
 
                     <div style={{ position: 'relative', width: '100%', height:'100' }}>
-                        <Image src="/Images/body-coding.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />    
+                        <Image src="/ReactTypeScriptFrontendTemplate/Images/body-coding.jpg" alt="Hero" width={1100} height={800} className="mb-3 px-2 rounded-2xl" />    
                     </div>                                         
                 </div>
 
