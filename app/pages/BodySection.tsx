@@ -19,7 +19,7 @@ export default function BodySection() {
                 <div className="flex items-center justify-center mt-3"> 
                     <Image src="/ReactTypeScriptFrontendTemplate/SVG/google.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32 " />
                     <Image src="/ReactTypeScriptFrontendTemplate/SVG/website-logo.svg" alt="Hero" width={50} height={50} className=" rounded-lg mr-32" />        
-                    <Image src="/ReactTypeScriptFrontendTemplate/SVG/windows.svg" alt="Hero" width={50} height={50} className=" rounded-lg" />                
+                    <Image src="" alt="Hero" width={50} height={50} className=" rounded-lg" />                
                 </div>
             </div>
 
