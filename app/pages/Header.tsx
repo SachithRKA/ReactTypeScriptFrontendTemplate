@@ -4,8 +4,8 @@ import React from "react";
 
 export default function Header() {
     return (
-        <header className="bg-black rounded-lg shadow dark:bg-gray-900 m-4">
-            <nav className="dark:bg-blue-500 flex items-center justify-between p-4">
+        <header className="rounded-lg shadow dark:bg-gray-900 m-4">
+            <nav className="flex items-center justify-between p-4">
                 <div className="flex items-center">
                     <Image src="/ReactTypeScriptFrontendTemplate/SVG/website-logo.svg" alt="Hero" width={40} height={40} className=" rounded-lg" />
                     {/* <h1 className="text-white ml-2 font-bold text-xl"> LOGO </h1> */}
