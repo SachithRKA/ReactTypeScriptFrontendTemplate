@@ -14,13 +14,13 @@ export default function Header() {
                 </div>
                 <ul className="flex space-x-4">
                     <li>
-                        <h1 className="text-gray-300 font-bold text-xl sm:hidden hover:text-white pt-2"><Link href="/pricing">Pricing</Link></h1>
+                        <h1 className="text-gray-300 font-bold text-xl sm:hidden hover:text-white pt-2"><Link href="/Pricing"><a>Pricing</a></Link></h1>
                     </li>
                     <li>
-                        <h1 className="text-gray-300 font-bold text-xl sm:hidden hover:text-white  pt-2"><Link href="/signup">Sign Up</Link></h1>
+                        <h1 className="text-gray-300 font-bold text-xl sm:hidden hover:text-white  pt-2"><Link href="/Signup"><a>Sign Up</a></Link></h1>
                     </li>
                     <li>
-                        <h1 className="bg-white p-2 rounded-md text-black font-bold cursor-pointer text-xl hover:bg-gray-300">Get Started</h1>
+                        <h1 className="bg-white p-2 rounded-md text-black font-bold cursor-pointer text-xl hover:bg-gray-300"><Link href="/Signup"><a>Sign Up</a></Link></h1>
                     </li>
                 </ul>
             </nav>
