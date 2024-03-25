@@ -10,7 +10,7 @@ export default function BodySection() {
                 <h1 className="text-gray-400 text-xl mt-5 pl-20 pr-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
                 <button className="bg-white hover:bg-gray-500 text-black font-bold py-2 px-4 rounded mt-8 mb-20">Start for Free</button>
                 <div className="flex items-center justify-center"> 
-                    <Image src="/Images/body-coding.jpg" alt="Hero" width={1000} height={800} className=" rounded-lg mt-5" />        
+                    <Image src="/ReactTypeScriptFrontendTemplate/Images/body-coding.jpg" alt="Hero" width={1000} height={800} className=" rounded-lg mt-5" />        
                 </div>
             </div>
 
