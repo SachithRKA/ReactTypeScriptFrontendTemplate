@@ -2,7 +2,7 @@ import Image from "next/image";
 import CustomHeader from "../components/Header";
 import React from "react";
 
-export default function Header() {
+export default function Prizing() {
     return (
         <div className="min-h-screen"> 
 
