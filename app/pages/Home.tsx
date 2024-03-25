@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Header from "./Header";
-import Footer from "./Footer";
-import BodySection from "./BodySection";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import BodySection from "../components/BodySection";
 import React from "react";
 
 export default function HomePage() {

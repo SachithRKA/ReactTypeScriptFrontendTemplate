@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CustomHeader from "./Header";
+import CustomHeader from "../components/Header";
 import React from "react";
 
 export default function Header() {
