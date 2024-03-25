@@ -1,13 +1,15 @@
 import React from 'react';
-import HomePage from './Home';
-import Signup from './Signup';
-import Header from '../components/Header';
-import Link from 'next/link';
+import Router from 'next/router';
+
 export default function Index() {
-    
-    return <>
-        <Header />
-        <Link href="/Testing"><a>Testing</a></Link>
-        <h1>HELLO WORLD LINKS WORLS HOPE SO</h1>
-    </>;
+  const goToTestingPage = () => {
+    Router.push('/Testing');
+  };
+
+  return (
+    <>
+      <button onClick={goToTestingPage}>Go to Testing Page</button>
+      <h1>HELLO WORLD LINKS WORLS HOPE SO</h1>
+    </>
+  );
 }
